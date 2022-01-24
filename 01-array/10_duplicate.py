@@ -17,7 +17,8 @@ if __name__ == '__main__':
 
     # input
     n = int(input())
-    arr = [ int(x) for x in input().rstrip().split() ]
+    nums = [ int(x) for x in input().rstrip().split() ]
+    print(findDuplicate(nums, n))
 
     print(f'program executed in {time.time() - START_TIME} second(s)')
     exit(0)
