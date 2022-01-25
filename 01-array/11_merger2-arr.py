@@ -11,6 +11,9 @@ def mergeArray(a: list[int], b: list[int], n: int, m: int) -> None:
         i -= 1
         j += 1
 
+    a.sort()
+    b.sort()
+
     return None
 
 
